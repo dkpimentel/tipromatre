@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^tipromatre.com [NC]
+RewriteRule ^(.*)$ http://www.tipromatre.com/$1 [R=301,L]
