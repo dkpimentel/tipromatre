@@ -2,6 +2,7 @@
 <?php
 
 /*Folha de estilo tema pai e JS*/
+add_action('wp_enqueue_scripts', 'wpi_child_js_css');
 function wpi_child_js_css() {
 
 	//Css e JS slick
@@ -19,4 +20,16 @@ function wpi_child_js_css() {
 	*/
 
 }
-add_action('wp_enqueue_scripts', 'wpi_child_js_css');
+
+/*
+ * Limitando o tamanho do título
+ *
+add_action('the_title', 'max_title_length');
+function max_title_length($title) {
+$max = 5;
+if (strlen($title) > $max) {
+return substr($title, 0, $max) . " &hellip;";
+} else {
+return $title;
+}
+}*/

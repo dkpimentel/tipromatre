@@ -1,0 +1,38 @@
+2020-06-23T16:22:24+00:00 CRITICAL Uncaught Error: Call to undefined function add_hook() in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php:27
+Stack trace:
+#0 /var/www/tipromatre.com/htdocs/wp-settings.php(508): include()
+#1 /var/www/tipromatre.com/wp-config.php(84): require_once('/var/www/tiprom...')
+#2 /var/www/tipromatre.com/htdocs/wp-load.php(42): require_once('/var/www/tiprom...')
+#3 /var/www/tipromatre.com/htdocs/wp-admin/admin-ajax.php(22): require_once('/var/www/tiprom...')
+#4 {main}
+  thrown in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php on line 27
+
+2020-06-23T16:22:27+00:00 CRITICAL Uncaught Error: Call to undefined function add_hook() in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php:27
+Stack trace:
+#0 /var/www/tipromatre.com/htdocs/wp-settings.php(508): include()
+#1 /var/www/tipromatre.com/wp-config.php(84): require_once('/var/www/tiprom...')
+#2 /var/www/tipromatre.com/htdocs/wp-load.php(42): require_once('/var/www/tiprom...')
+#3 /var/www/tipromatre.com/htdocs/wp-blog-header.php(13): require_once('/var/www/tiprom...')
+#4 /var/www/tipromatre.com/htdocs/index.php(17): require('/var/www/tiprom...')
+#5 {main}
+  thrown in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php on line 27
+
+2020-06-23T16:22:39+00:00 CRITICAL Uncaught Error: Call to undefined function add_hook() in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php:27
+Stack trace:
+#0 /var/www/tipromatre.com/htdocs/wp-settings.php(508): include()
+#1 /var/www/tipromatre.com/wp-config.php(84): require_once('/var/www/tiprom...')
+#2 /var/www/tipromatre.com/htdocs/wp-load.php(42): require_once('/var/www/tiprom...')
+#3 /var/www/tipromatre.com/htdocs/wp-admin/admin-ajax.php(22): require_once('/var/www/tiprom...')
+#4 {main}
+  thrown in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php on line 27
+
+2020-06-23T16:22:49+00:00 CRITICAL Uncaught Error: Call to undefined function add_title() in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php:27
+Stack trace:
+#0 /var/www/tipromatre.com/htdocs/wp-settings.php(508): include()
+#1 /var/www/tipromatre.com/wp-config.php(84): require_once('/var/www/tiprom...')
+#2 /var/www/tipromatre.com/htdocs/wp-load.php(42): require_once('/var/www/tiprom...')
+#3 /var/www/tipromatre.com/htdocs/wp-blog-header.php(13): require_once('/var/www/tiprom...')
+#4 /var/www/tipromatre.com/htdocs/index.php(17): require('/var/www/tiprom...')
+#5 {main}
+  thrown in /var/www/tipromatre.com/htdocs/wp-content/themes/hello-elementor-child/functions.php on line 27
+
