@@ -1,0 +1,237 @@
+/*
+ * Configuração da lista de post para post slider
+ * Página demostrativa - http://www.tipromatre.com/
+ */
+ .slick-initialized .slick-slide {
+ 	display: block !important;
+ }
+
+ .blog_holder .elementor-posts-container{
+ 	width:100%;
+ 	display:block !important;
+ }
+
+ .blog_holder article {
+ 	margin: 7px !important;
+ }
+
+ .blog_holder .slick-prev::before, .blog_holder .slick-next::before {
+ 	color: #333 !important;
+ }
+
+
+
+/*
+ * Configuração da tabela Fonte:;
+ * Página demostrativa - http://www.tipromatre.com/pagina-teste-tab-perguntas/
+ */
+ .tab_icon{
+ 	padding: 25px 45px;
+ 	border: 1px solid #b5e4e2;
+ 	margin-bottom: 20px;
+ }
+
+ .tab_icon i {
+ 	font-size: 40px;
+ 	color: #a5a2a2;
+ 	text-align: center;
+ }
+
+ .tab_icon:hover{
+ 	background: #b5e4e2;	
+ }
+ .tab_icon:hover i{
+ 	color: #fff;
+ }
+
+ .tab_title {
+ 	font-size: 14px;
+ 	text-transform: uppercase;
+ 	text-align: center;
+ 	color: #4f4f4f;
+ }
+
+ .pro_tab .elementor-active .tab_icon {
+ 	background: #b5e4e2;
+ }
+ .pro_tab .elementor-active .tab_icon i{
+ 	color: #fff;
+ }
+
+
+/*
+ * Menu fixed ao rolar com delay- fonte:https://www.youtube.com/watch?v=NdRH3CKn_Ao
+ * Página de amostra - http://www.tipromatre.com/pagina-com-texto/
+ * Obs: .sticky é a classe no js
+ *//*
+ .sticky{
+ 	width: 100%;
+ 	position: fixed !important;
+ 	top: 0 !important;
+ 	left: 0 !important;
+ 	right: 0 !important;
+ 	max-width:1440px; margin: 0 auto;
+ 	z-index: 99999;
+ 	-webkit-transition: all .5s ease;
+ 	-moz-transition: all .5s ease;
+ 	-o-transition: all .5s ease;
+ 	transition: all .5s ease;
+ 	background: #eee !important;
+ }*/
+
+
+
+/*
+ * Menu fixed ao rolar com delay- fonte:https://www.youtube.com/watch?v=ssT_9tTj7ts
+ * Página de amostra - enter site
+ * Obs: colocar o menu stick na sessão e adicionar duas logos com a classe dd_logo_hide e show
+ */
+ .dd_logo_hide{
+ 	display: none;
+ }
+
+ .elementor-sticky--active .dd_logo_show {
+ 	display: none;
+ }
+
+ .elementor-sticky--active .dd_logo_hide {
+ 	display: block;
+ }
+
+ .elementor-sticky--active {
+ 	background: #f4f4f4 !important;
+ }
+/*
+.elementor-sticky--active a{
+	color: #000000 !important;
+}
+
+.elementor-sticky--active a.elementor-item-active{
+	color: #000000 !important;
+}
+
+
+/*
+ * Opção de multi box shadow- fonte:https://youtu.be/qAGTiNJ5WE0
+ * Página de amostra - http://www.tipromatre.com/pagina-multi-box-shadow/
+ * Obs:
+ */
+ .dd_box{
+ 	transition: transform 0.8s
+ }
+ .one{
+ 	height: 200px;
+ 	width: 80%;
+ 	background: #fff;
+ 	position: absolute;
+ 	bottom: 0; left: 10%;
+ 	z-index: -1;
+ 	border-radius: 15px;
+ 	box-shadow: 0 0 20px -15px #030380; transition: transform 0.8s
+ }
+
+ .two{
+ 	height: 200px;
+ 	width: 64%;
+ 	background: #fff;
+ 	position: absolute;
+ 	bottom: 0; left: 18%;
+ 	z-index: -2;
+ 	border-radius: 15px;
+  }
+
+  .dd_column:hover .dd_box{
+  	transform: translateY(-50px);
+  }
+
+  .dd_column:hover .one{
+  	transform: translateY(-25px);
+  }
+
+ /*
+  * Opção button fill effect- fonte:https://youtu.be/Afez6aMscOE
+  * Página de amostra - http://www.tipromatre.com/pagina-multi-box-shadow/
+  * Obs:
+  */
+.dd_fill_btn .elementor-button{
+	background: linear-gradient(to right, red 50%, #fff 50%);
+	background-size: 200% 100%;
+	background-position: right bottom;
+	transition: all 1s ease;
+}
+
+.dd_fill_btn .elementor-button:hover{
+	background-position: left bottom;
+	color: #fff !important;
+}
+
+
+ /*
+  * Opção 6 forma de hover para botão- fonte:https://www.youtube.com/watch?v=_w57bWIPZKE
+  * Página de amostra - http://www.tipromatre.com/pagina-multi-box-shadow/
+  * Obs:
+  */
+
+  .dd_btns{
+  	text-align: center;
+  	margin-top: 50px;
+  }
+
+  .dd_efeito{
+  	border: none;
+  	color: #ffffff;
+  	padding: 2px;
+  	margin: 10px;
+  	font-size: 24px;
+  	line-height: 24px;
+  	border-radius: 10px;
+  	position: relative;
+  	box-sizing: border-box;
+  	cursor: pointer;
+  	transition: all 400ms ease;
+  }
+
+  .efeito-1 {
+  	background-color: #28348a;
+  }
+  .efeito-1:before{
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	width: 0px;
+  	height: 64px;
+  	background: rgba(255,255,255,0.3);
+  	border-radius: 10px;
+  	transition: all 2s ease;
+  }
+
+  .efeito-1:hover:before{
+  	width: 100%;
+  }
+
+
+ /*
+  * Particulas em texto- fonte:https://www.youtube.com/watch?v=PP0Os0UvMCs&list=PLpYCx6rwkOg67Jz1-TFLeCb2oM_zCvFpV&index=8
+  * Página de amostra - http://www.tipromatre.com/particulas/
+  * Obs:
+  */
+
+  .dd_title_effects h2:before{
+  	content: '';
+  	position: absolute;
+  	left: 110%;
+  	width: 120%;
+  	height: 100%;
+  	background: linear-gradient(90deg, transparent 0%, #000 5%, #000 100%);
+
+  	animation: animate 5.5s linear forwards;
+
+  }
+  @keyframes animate{
+
+  	0%{ left: 110% }
+  	100% {left: -20% }
+
+  }
+
+  .dd_title_effects span{ color: #ff022c !important;  }
